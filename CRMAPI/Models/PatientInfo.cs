@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace CRMAPI.Models
+namespace CRMWebApi.Models
 {
     public class PatientInfo
     {
@@ -16,8 +16,7 @@ namespace CRMAPI.Models
         public string City { get; set; }
         public string Province { get; set; }
         public string ZipCode { get; set; }
-        public string Allergen { get; set; }
-        public string AllergenCategory { get; set; }
+        public List<Allergen> Allergens { get; set; }
         public string Education { get; set; }
         public string Ethnicity { get; set; }
         public string PreferredLanguage { get; set; }

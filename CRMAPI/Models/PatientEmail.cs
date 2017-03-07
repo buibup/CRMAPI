@@ -5,9 +5,8 @@ using System.Web;
 
 namespace CRMWebApi.Models
 {
-    public class PatientPhone
+    public class PatientEmail
     {
-        public string PhoneNumber { get; set; }
-        public string PhoneCategory { get; set; }
+        public string Email_Address { get; set; }
     }
 }
